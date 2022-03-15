@@ -1,13 +1,13 @@
-**Welcome to the Special Waddle **
-Some useful links to help you find what you need.
+# Welcome to the Special Waddle
+## Some useful links to help you find what you need.
 Check out the Wiki
 Check out the Project
 Check out our Issues
 User Story (Story Points)
 
-**As an** End User
+**As an** movie enthusiast
 
-**I would like to** compare my favorite movies to others using this app
+**I would like to** compare my favorite movies to others
 
 **So that I can** find common interests with people without awkward small talk.
  
@@ -20,11 +20,11 @@ These problems can be solved with the Movie Compatibility Application. This appl
 
 
 
-### before completion
+## Before completion
 ·       Users from around the world lack a movie compatibility application
 ·       Users must search film discussion boards to find other users with      similar tastes
 ·       Users do not have a quick way of finding similar films liked by others
-### After completion
+## After completion
 ·         Users from around the world will be able to create an account.
 ·         Search through the list of movies given from a database
 ·         Vote on whether they like or dislike on each film
@@ -32,7 +32,7 @@ These problems can be solved with the Movie Compatibility Application. This appl
 ·         See the compatibility percentage between both users
 
 
-### Similar Apps/Interfaces
+## Similar Apps/Interfaces
 
 ![image](https://app.personalityperfect.com/images/uploads/matching-and-inviting-925.png)
 
@@ -42,7 +42,7 @@ These problems can be solved with the Movie Compatibility Application. This appl
 
 
 
-### Product Features
+## Product Features
 
 ![image](https://i.imgur.com/fSOaSUX.png)
 
@@ -53,6 +53,11 @@ These problems can be solved with the Movie Compatibility Application. This appl
 
 
 
-### Software used:
+## Software used:
 Entities used for this project were Nodejs, Angular, Express, VSCode, Mongodb, and Heroku.
 
+## Min Acceptance Criteria
+- [ ] Is the app functioning?
+- [ ] Does the app compare entries to the database?
+- [ ] Does the app allow you to add your entries to the database?
+- [ ] Does the information display properly?
