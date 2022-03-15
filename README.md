@@ -56,6 +56,9 @@ These problems can be solved with the Movie Compatibility Application. This appl
 ## Software used:
 Entities used for this project were Nodejs, Angular, Express, VSCode, Mongodb, and Heroku.
 
+## Heroku Connection
+- [Follow Heroku's Connection Guide](https://devcenter.heroku.com/articles/quick-start-heroku-connect-cli)
+
 ## Min Acceptance Criteria
 - [ ] Is the app functioning?
 - [ ] Does the app compare entries to the database?
