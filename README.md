@@ -33,7 +33,9 @@ After completion
 
 Similar Apps/Interfaces
 
+![image](https://app.personalityperfect.com/images/uploads/matching-and-inviting-925.png)
 
+![image](https://cdn3.vectorstock.com/i/1000x1000/37/62/zodiac-signs-compatibility-app-smartphone-vector-32173762.jpg)
 
 
 
@@ -41,6 +43,7 @@ Similar Apps/Interfaces
 
 Product Features
 
+![image](https://i.imgur.com/fSOaSUX.png)
 
 
 
