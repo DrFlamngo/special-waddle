@@ -1,9 +1,10 @@
 # Welcome to the Special Waddle
 ## Some useful links to help you find what you need.
-Check out the Wiki
-Check out the Project
-Check out our Issues
-User Story (Story Points)
+- Check out the [Wiki]()
+- Check out the Project
+- Check out our Issues
+
+## User Story (Story Points)
 
 **As an** movie enthusiast
 
@@ -21,9 +22,10 @@ These problems can be solved with the Movie Compatibility Application. This appl
 
 
 ## Before completion
-·       Users from around the world lack a movie compatibility application
-·       Users must search film discussion boards to find other users with      similar tastes
-·       Users do not have a quick way of finding similar films liked by others
+Users from around the world lack a movie compatibility application
+Users must search film discussion boards to find other users with      similar tastes
+Users do not have a quick way of finding similar films liked by others
+
 ## After completion
 ·         Users from around the world will be able to create an account.
 ·         Search through the list of movies given from a database
@@ -47,12 +49,6 @@ These problems can be solved with the Movie Compatibility Application. This appl
 ![image](https://i.imgur.com/fSOaSUX.png)
 
 
-
-
-
-
-
-
 ## Software used:
 Entities used for this project were Nodejs, Angular, Express, VSCode, Mongodb, and Heroku.
 
@@ -60,7 +56,8 @@ Entities used for this project were Nodejs, Angular, Express, VSCode, Mongodb, a
 - [Follow Heroku's Connection Guide](https://devcenter.heroku.com/articles/quick-start-heroku-connect-cli)
 
 ## Min Acceptance Criteria
-- [ ] Is the app functioning?
+- [ ] Is the app functioning: see b/l
+  - [ ] user can enter a movie
 - [ ] Does the app compare entries to the database?
 - [ ] Does the app allow you to add your entries to the database?
 - [ ] Does the information display properly?
