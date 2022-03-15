@@ -1,8 +1,8 @@
 # Welcome to the Special Waddle
 ## Some useful links to help you find what you need.
-- Check out the [Wiki]()
-- Check out the Project
-- Check out our Issues
+- Check out the [Wiki](https://github.com/DrFlamngo/special-waddle/wiki)
+- Check out the [Project](https://github.com/DrFlamngo/special-waddle/projects)
+- Check out our [Issues](https://github.com/DrFlamngo/special-waddle/issues)
 
 ## User Story (Story Points)
 
