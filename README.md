@@ -6,7 +6,7 @@
 
 ## User Story (Story Points)
 
-**As an** movie enthusiast
+**As a** movie enthusiast
 
 **I would like to** compare my favorite movies to others
 
