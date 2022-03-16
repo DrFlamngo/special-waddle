@@ -22,16 +22,16 @@ These problems can be solved with the Movie Compatibility Application. This appl
 
 
 ## Before completion
-Users from around the world lack a movie compatibility application
-Users must search film discussion boards to find other users with      similar tastes
-Users do not have a quick way of finding similar films liked by others
+- Users from around the world lack a movie compatibility application
+- Users must search film discussion boards to find other users with similar tastes
+- Users do not have a quick way of finding similar films liked by others
 
 ## After completion
-·         Users from around the world will be able to create an account.
-·         Search through the list of movies given from a database
-·         Vote on whether they like or dislike on each film
-·         View other users who have a similar movie interests
-·         See the compatibility percentage between both users
+- Users from around the world will be able to create an account.
+- Search through the list of movies given from a database
+- Vote on whether they like or dislike on each film
+- View other users who have a similar movie interests
+- See the compatibility percentage between both users
 
 
 ## Similar Apps/Interfaces
@@ -60,8 +60,7 @@ Entities used for this project were Nodejs, Angular, Express, VSCode, Mongodb, a
 
 
 ## Min Acceptance Criteria
-- [ ] Is the app functioning: see b/l
-  - [ ] user can enter a movie
+- [ ] Is the app functioning: see backlog
 - [ ] Does the app compare entries to the database?
 - [ ] Does the app allow you to add your entries to the database?
 - [ ] Does the information display properly?
