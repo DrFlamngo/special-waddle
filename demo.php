@@ -1,6 +1,6 @@
 <?php
 //This code tests the connection to the built in mongo database on the users PC.
-//http://localhost/special-waddle/demo.php
+//insert http://localhost/special-waddle/demo.php into your browser one you have completed the install guide
 
 require 'vendor/autoload.php'; 
 
