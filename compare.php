@@ -28,9 +28,12 @@ $result = $user->find(['movies' => ['$in' => ["$movie1", "$movie2", "$movie3", "
 
 $data = iterator_to_array($result);
 
-//This BSON to JSON converter below may work for the (Clean up match results issue #18). It converts the BSON array into a long string that has the array data.
-//$json = MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($data));
+$decode = json_encode($data);
 
-print_r($data);
+$encode = json_decode($decode, true);
+
+print_r($encode);
+
+
 
 
