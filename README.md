@@ -56,7 +56,7 @@ Entities used for this project were Nodejs, Angular, Express, VSCode, Mongodb, a
 - [Follow Heroku's Connection Guide](https://devcenter.heroku.com/articles/quick-start-heroku-connect-cli)
 
 ## Software Installation
-- [Software Installation guide](https://github.com/DrFlamngo/special-waddle/wiki/Install-Script-for-VS-Code,-MongoDB,-NodeJS,-and-Express)
+- [Software Installation guide](https://github.com/DrFlamngo/special-waddle/wiki/Installing-VSCode,-MongoDB,-Xampp,-MongoDB-Driver-for-PHP)
 
 
 ## Min Acceptance Criteria
