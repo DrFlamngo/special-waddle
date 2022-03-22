@@ -1,0 +1,55 @@
+
+/* card */
+.card{
+    box-shadow: 0 4px 8px 0 black;
+    margin: 5px;
+    padding: 5px;
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+/* container */
+.container{
+    padding: 2px 16px;
+}
+
+
+/* Compare title */
+#comptitle{
+
+}
+
+/* Add title */
+#addtitle{
+
+}
+
+/* Comp movie title */
+.compmovie{
+color: blue;
+}
+
+/* Comp movie input box  */
+.compmovie1{
+
+}
+
+/* addmovie title */
+.addmovie{
+color: blue;
+}
+
+/* addmovie input box */
+.addmovie1{
+
+}
+
+/* Submit btn */
+.submitbtn{
+
+}
+
