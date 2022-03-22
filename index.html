@@ -2,37 +2,48 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="styles.css">
     <title>Movie Compatibility Calculator</title>
 </head>
 
 <body>
 
-    <h1>Please enter five of your favorite movies below.</h1>
-    <h2>When Testing, Please use Ryans favorite movies from the movieusers database found in databaseinfo.md</h2>
+    
+    
         <p>These are The Matrix, Inception, Jaws, Home Alone, Tenet</p>
-
-    <form action="compare.php" method="post">
-        Movie1: <input type="text" name="movie1"><br>
-        Movie2: <input type="text" name="movie2"><br>
-        Movie3: <input type="text" name="movie3"><br>
-        Movie4: <input type="text" name="movie4"><br>
-        Movie5: <input type="text" name="movie5"><br>
-        <input type="submit">
-    </form>
+    <div class="card" id="compcard">
+        <h3 id="comptitle">Please enter five of your favorite movies below.</h3>
+        <h5>When Testing, Please use Ryans favorite movies from the movieusers database found in databaseinfo.md</h5>
+        <div class="container">
+            <form action="compare.php" method="post">
+                <label class="compmovie">Movie1: </label><input type="text" class="compmovie1" name="movie1"><br>
+                <label class="compmovie">Movie2: </label><input type="text" class="compmovie1" name="movie2"><br>
+                <label class="compmovie">Movie3: </label><input type="text" class="compmovie1" name="movie3"><br>
+                <label class="compmovie">Movie4: </label><input type="text" class="compmovie1" name="movie4"><br>
+                <label class="compmovie">Movie5: </label><input type="text" class="compmovie1" name="movie5"><br>
+                <input type="submit" class="submitbtn">
+            </form>
+        </div>
+    </div>
     <br>
     <br>
     <br>
     <br>
-    <h1>Please enter your name and your five favorite movies below these will be inserted into the database.</h1>
-    <form action="add.php" method="post">
-        Name: <input type="text" name="nameinput"><br>
-        Movie1: <input type="text" name="input1"><br>
-        Movie2: <input type="text" name="input2"><br>
-        Movie3: <input type="text" name="input3"><br>
-        Movie4: <input type="text" name="input4"><br>
-        Movie5: <input type="text" name="input5"><br>
-        <input type="submit">
-    </form>
+    
+    <div class="card" id="addcard">
+        <h3 id="addtitle">Please enter your name and your five favorite movies below these will be inserted into the database.</h3>
+        <div class="container">
+            <form action="add.php" method="post">
+                Name: <input type="text" name="nameinput"><br>
+                <label class="addmovie">Movie1: </label><input type="text" class="addmovie1" name="input1"><br>
+                <label class="addmovie">Movie2: </label><input type="text" class="addmovie1" name="input2"><br>
+                <label class="addmovie">Movie3: </label><input type="text" class="addmovie1" name="input3"><br>
+                <label class="addmovie">Movie4: </label><input type="text" class="addmovie1" name="input4"><br>
+                <label class="addmovie">Movie5: </label><input type="text" class="addmovie1" name="input5"><br>
+                <input type="submit" class="submitbtn">
+            </form>
+        </div>
+    </div>
 
 
 
