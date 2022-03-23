@@ -6,12 +6,23 @@ require 'vendor/autoload.php';
 // define variables and set to empty values
 $movie1 = $movie2 = $movie3 = $movie4 = $movie5 = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $movie1 = test_input($_POST["movie1"]);
-  $movie2 = test_input($_POST["movie2"]);
-  $movie3  = test_input($_POST["movie3"]);
-  $movie4  = test_input($_POST["movie4"]);
-  $movie5  = test_input($_POST["movie5"]);
+if (isset(($_POST['test'])){
+  $movie1 = "The Matrix";
+  $movie2 = "Inception";
+  $movie3 = "Jaws";
+  $movie4 = "Home Alone";
+  $movie5 = "Tenet";
+}else{
+
+
+
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $movie1 = test_input($_POST["movie1"]);
+    $movie2 = test_input($_POST["movie2"]);
+    $movie3  = test_input($_POST["movie3"]);
+    $movie4  = test_input($_POST["movie4"]);
+    $movie5  = test_input($_POST["movie5"]);
+  }
 }
 
 function test_input($data) {
