@@ -1,4 +1,5 @@
-<?php
+<?php 
+session_start();
 require 'vendor/autoload.php';
 
 
@@ -31,9 +32,10 @@ $data = iterator_to_array($result);
 $decode = json_encode($data);
 
 $encode = json_decode($decode, true);
+// echo '<pre>' . var_export($encode, true) . '</pre>';
 
-print_r($encode);
+$_SESSION['encode'] = $encode;
 
-
+header('location: matches.php');
 
 
