@@ -2,7 +2,8 @@
 require 'vendor/autoload.php';
 
 
-// define variables and set to empty values
+// This function clean's the string form data of extra space, tab,
+// newline, backslashes, and prevents script injection with htmlspecialchars.
 $input1 = $input2 = $input3 = $input4 = $input5 = $nameinput = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
