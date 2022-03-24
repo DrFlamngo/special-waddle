@@ -7,14 +7,13 @@ require 'vendor/autoload.php';
 // newline, backslashes, and prevents script injection with htmlspecialchars.
 $movie1 = $movie2 = $movie3 = $movie4 = $movie5 = "";
 
-if (isset(($_POST['test'])){
+if (isset($_POST['test'])){
   $movie1 = "The Matrix";
   $movie2 = "Inception";
   $movie3 = "Jaws";
   $movie4 = "Home Alone";
   $movie5 = "Tenet";
 }else{
-
 
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
