@@ -32,7 +32,7 @@ $data = iterator_to_array($result);
 $decode = json_encode($data);
 
 $encode = json_decode($decode, true);
-// echo '<pre>' . var_export($encode, true) . '</pre>';
+
 
 $_SESSION['encode'] = $encode;
 
