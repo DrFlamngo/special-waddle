@@ -37,6 +37,7 @@ color: blue;
 
 /* Comp movie input box  */
 .compmovie1{
+  margin: 2%;
 
 }
 
@@ -47,7 +48,7 @@ color: blue;
 
 /* addmovie input box */
 .addmovie1{
-
+margin: 2%;
 }
 
 /* Submit btn */
