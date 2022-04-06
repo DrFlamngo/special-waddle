@@ -36,7 +36,7 @@ function test_input($data) {
 //MongoDB is the namespace within Client.php.
 serverApi = new ServerApi(ServerApi::V1);
 $client = new MongoDB\Client(
-    'mongodb+srv://admin:specialwaddle@cluster0.twet7.mongodb.net/movieusers?retryWrites=true&w=majority', [], ['serverApi' => $serverApi]);
+    'mongodb+srv://admin:specialwaddle@cluster0.twet7.mongodb.net/movieuser?retryWrites=true&w=majority', [], ['serverApi' => $serverApi]);
 
 //$user is searching mongodb for a db called movieuser and a document called user. 
 $user = $client->movieusers->user;
