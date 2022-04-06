@@ -13,6 +13,7 @@ $encode = $_SESSION['encode'];
     <h2>Matches!</h2>
     <ul>
         <?php
+        //takes the encode from session and loops through the array printing the name in the array
          foreach($encode as $code){
             $matchnames = $code['name'];
             echo "<li> $matchnames </li>";

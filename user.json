@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "623a3c9e28b0f69347ad16c4"
+  },
+  "name": "Ryan",
+  "movies": [
+    "The Matrix",
+    "Inception",
+    "Jaws",
+    "Home Alone",
+    "Tenet"
+  ]
+},{
+  "_id": {
+    "$oid": "623a3c9e28b0f69347ad16c5"
+  },
+  "name": "Steve",
+  "movies": [
+    "The Godfather",
+    "Goodfellas",
+    "Alien",
+    "The Dark Knight",
+    "The Matrix"
+  ]
+},{
+  "_id": {
+    "$oid": "623a3c9e28b0f69347ad16c6"
+  },
+  "name": "Emily",
+  "movies": [
+    "Pulp Fiction",
+    "Spirited Away",
+    "The Matrix",
+    "Jaws",
+    "Blade Runner"
+  ]
+},{
+  "_id": {
+    "$oid": "623a3c9e28b0f69347ad16c7"
+  },
+  "name": "Amber",
+  "movies": [
+    "Jaws",
+    "The Matrix",
+    "Inception",
+    "Ghostbusters",
+    "Die Hard"
+  ]
+},{
+  "_id": {
+    "$oid": "623a3c9e28b0f69347ad16c8"
+  },
+  "name": "Bill",
+  "movies": [
+    "Jaws",
+    "Iron Man",
+    "Tenet",
+    "The Matrix",
+    "Inception"
+  ]
+},{
+  "_id": {
+    "$oid": "623a3c9e28b0f69347ad16c9"
+  },
+  "name": "Mary",
+  "movies": [
+    "Jaws",
+    "Home Alone",
+    "Tenet",
+    "The Matrix",
+    "Inception"
+  ]
+},{
+  "_id": {
+    "$oid": "623a3ca028b0f69347ad16ca"
+  },
+  "name": "One",
+  "movies": [
+    "Black Panther",
+    "Casablanca",
+    "Knives Out",
+    "The Terminator",
+    "Armageddon"
+  ]
+},{
+  "_id": {
+    "$oid": "624c8e79b0580000c6007af3"
+  },
+  "name": "Zach",
+  "movies": [
+    "The Batman",
+    "Parasite",
+    "Snowpiercer",
+    "Avengers: Endgame",
+    "Moon Knight"
+  ]
+}]
