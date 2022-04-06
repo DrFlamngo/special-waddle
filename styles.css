@@ -1,16 +1,32 @@
 
 /* card */
-.card{
-    box-shadow: 0 4px 8px 0 black;
-    margin: 5px;
-    padding: 5px;
+.card1{
+  position: absolute;
+  
+  box-shadow: 0 4px 8px 0 black;
+  padding: 5px;
   transition: 0.3s;
   width: 40%;
   box-shadow: 0 2px 4px 0 black;
   border-radius: 5px;
+  z-index: 900;
+  
+  background-color: white;
 }
 
-.card:hover {
+
+
+#compcard{
+  position:absolute;
+  top: 50px; left: 100px;
+}
+
+#addcard{
+  position:absolute;
+  top: 450px; left: 100px;
+}
+
+.card1:hover {
   box-shadow: 0 8px 16px 0 black;
   }
 
@@ -55,4 +71,18 @@ margin: 2%;
 .submitbtn{
 
 }
+
+/* background */
+.bckcard{
+  /* position: absolute; */
+  height: 200px;
+  width: 200px;
+  /* margin: 10px; */
+  border: .4rem solid;
+  z-index: 100;
+  /* background-image: url("images\movieicon.png"); */
+  
+}
+
+
 
