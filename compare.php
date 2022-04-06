@@ -39,7 +39,7 @@ $client = new MongoDB\Client(
     'mongodb+srv://admin:specialwaddle@cluster0.twet7.mongodb.net/movieuser?retryWrites=true&w=majority');
 
 //$user is searching mongodb for a db called movieuser and a document called user. 
-$user = $client->movieusers->user;
+$user = $client->movieuser->user;
 
 //$result returns a set arrays that meet the requirement of the $in search function.
 $result = $user->find(['movies' => ['$in' => ["$movie1", "$movie2", "$movie3", "$movie4", "$movie5"]]]);
