@@ -23,8 +23,8 @@ function test_input($data) {
 }
 
 
-
-$client = new MongoDB\Client("mongodb://localhost:27017");
-$user = $client->movieusers->user;
+$client = new MongoDB\Client(
+    'mongodb+srv://admin:specialwaddle@cluster0.twet7.mongodb.net/movieuser?retryWrites=true&w=majority');
+$user = $client->movieuser->user;
 
 $newuser = $user->insertOne(['name' => "$nameinput", 'movies' => ["$input1", "$input2", "$input3", "$input4", "$input5"]]);
