@@ -1,13 +1,20 @@
 
 
-// var img = new Array(2);
-
-// for(var p=0;p<2;p++){ 
-// img[p] = new Image(); 
-// img[p].src = 'images/' + p + '.jpg'; }
 
 
 $(document).ready(function () {
+
+
+// randon image
+    const imgArr = ["KillBill.jpg","movieicon.jpg"];
+    
+
+    // function randomnum(){
+    var num = Math.floor(Math.random() * (imgArr.length));
+    var l ="images/"+imgArr[num];
+    console.log(l);
+
+    // }
 
   
    
@@ -26,7 +33,7 @@ $(document).ready(function () {
       console.log(r);
   
       $("body").append(
-        `<div style="background-image: url('images/KillBill.jpg'); background-size: contain; transform: rotate(${r}deg); left: ${posL}px; top: ${posT}px" class="bckcard"> ${posL} </div>`
+        `<div style="background-image: url(${l}); background-size: contain; transform: rotate(${r}deg); left: ${posL}px; top: ${posT}px" class="bckcard"> </div>`
       );
     }
   });
