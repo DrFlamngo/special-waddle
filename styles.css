@@ -10,8 +10,13 @@
   box-shadow: 0 2px 4px 0 black;
   border-radius: 5px;
   z-index: 900;
-  
   background-color: white;
+  border-style: inset;
+  border-color: bisque;
+  border-width: 3px;
+  opacity: 90%;
+
+
 }
 
 
@@ -76,12 +81,10 @@ margin: 2%;
 .bckcard{
   height: 300px;
   width: 200px;
-
-  
-  
-  
   position: absolute;
-  
+  border-style: inset;
+  border-color: bisque;
+  border-width: 3px;
 }
 
 
