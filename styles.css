@@ -6,7 +6,7 @@
   box-shadow: 0 4px 8px 0 black;
   padding: 5px;
   transition: 0.3s;
-  width: 40%;
+  width: 30%;
   box-shadow: 0 2px 4px 0 black;
   border-radius: 5px;
   z-index: 900;
@@ -74,13 +74,11 @@ margin: 2%;
 
 /* background */
 .bckcard{
-  /* position: absolute; */
-  height: 200px;
+  height: 300px;
   width: 200px;
-  /* margin: 10px; */
-  border: .4rem solid;
-  z-index: 100;
-  /* background-image: url("images\movieicon.png"); */
+  
+  
+  position: absolute;
   
 }
 
