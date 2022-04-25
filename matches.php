@@ -21,6 +21,7 @@ $encode = $_SESSION['encode'];
         
         ?>
     </ul>
+    <a href="index.html">Return to Homepage</a>
 </body>
 
 </html>
